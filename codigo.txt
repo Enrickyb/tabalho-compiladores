@@ -1,28 +1,14 @@
 programa {
-    // Declaração de variáveis de tipos diferentes
-    inteiro contador, limite;
-    real salario_base, bonus;
+    // Declaração de variáveis para o cálculo
+    inteiro dividendo, divisor, resultado, resultadoErrado;
 
-    // Atribuições e uso de literais
-    limite = 10;
-    salario_base = 2500.75;
-    contador = 0;
+    dividendo = 100;  // Define o valor inicial
+    divisor = 2;
 
-    // Estrutura de repetição 'enquanto'
-    enquanto (contador < limite) faca {
-        
-        // Estrutura condicional 'se' com operadores relacionais
-        se (contador == 5) {
-            escreva salario_base;
-        } senao {
-            leia bonus;
-            salario_base = salario_base + bonus;
-        }
+    // A operação de divisão deve ser reconhecida corretamente
+    resultado = dividendo / divisor;
 
-        contador = contador + 1; // Operador aritmético
-    }
+    resultadoErrado = didendo @ divisor;
 
-    // Erro Léxico: O caractere '@' não pertence à linguagem
-    real resultado_final;
-    resultado_final = salario_base @ 1.1; 
+    escreva resultado; // Mostra o valor final na tela
 }
