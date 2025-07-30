@@ -8,7 +8,8 @@ programa {
     // A operação de divisão deve ser reconhecida corretamente
     resultado = dividendo / divisor;
 
-    resultadoErrado = didendo @ divisor;
+    // Exemplo de erro
+    resultadoErrado = didendo @ divisor; 
 
     escreva resultado; // Mostra o valor final na tela
 }
